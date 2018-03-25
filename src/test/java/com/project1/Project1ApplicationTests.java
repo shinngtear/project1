@@ -9,10 +9,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import com.project1.web.i18n.I18NService;
 
+
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class Project1ApplicationTests {
-
 	@Autowired
 	private I18NService i18NService;
 	
